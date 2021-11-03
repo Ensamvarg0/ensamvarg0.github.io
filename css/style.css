@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+/* slider */
+.swiper {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+/* DISEÑO DE GALERIAS */
+.principalgaleria{
+
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.item {
+  flex-grow: 1;
+  margin: 50px 10px 0px 10px;
+  height: 100%;
+}
+.item {
+  width: 13%;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+/* FOOTER DE TODAS LAS PAGINAS */
+.footer{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 25%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer p{
+  color: white;
+  font-size: 1em;
+  margin: 10px;
+  text-align: center;
+}
+.footer ul{
+  padding: 20px;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer ul li a {
+  
+  margin: 20px ; 
+  text-transform: none; 
+  color: rgb(255, 255, 255);
+  font-family: 'Oswald', sans-serif   ;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+
+.footer ul li a:hover{
+  color: #ec8f03;
+
+}
+/* BODY DE VIDEOS */
+.videocontenedor{
+  margin: 60px 0px 10px 0px;
+  padding: 20px;
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* modificaciones a servicios */
+
+.principal{
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+}
+
+.tituloservicios1 p{
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  margin: 50px;
+  border: solid 2px black;
+  border-radius: 5px;
+  background-color: beige;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+}
+
+.tituloservicios2 p{
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  margin: 50px;
+  margin-top: 30%;
+  border: solid 2px black;
+  border-radius: 5px;
+  background-color: beige;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+}
+
+/* FORMULARIO CONTACTO */
+
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #000000; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ec8f03; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ec8f03; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ffffff; 
+  border-color: #ec8f03; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: rgb(0, 0, 0); 
+}
+
+
+span{
+  color: #ec8f03; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #ffffff;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ffffff;
+}
+
+
+h3{
+  font-size: 1em; 
+  padding-bottom: 30px;
+  color: #ffffff;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #ffffff; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #000000;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 2px solid #ff0000;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 2px solid #ff0000;
+}
+/* creado por javiniguez.com, Julio 2019 */
+
+
+.redessociales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item2 {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 5%; /* (100-32*3)/2 */
+}
+
+ /* ##Dispositivo = Smartphones de 320px a 479px */
+  
+ @media (min-width: 320px) and (max-width: 480px) {
+  body{
+    background-color: black;
+  }
+
+  .footer{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .footer p{
+    color: rgb(0, 0, 0);
+  }
+
+  .footer ul li a {
+    color: rgb(0, 0, 0);
+  }
+ }
+
+  /* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  }
+
+  /* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+
+}
